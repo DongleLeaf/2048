@@ -3,8 +3,8 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #9cc2d2;
-  color: #354b59;
+  background: #D5C7CB;
+  color: #D8456F;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-family: "Whitney SSm A","Whitney SSm B","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 18px; }
@@ -45,7 +45,7 @@ input {
     cursor: auto;
     background: #fcfbf9;
     font-weight: normal;
-    color: #776e65;
+    color: #D8456F;
     padding: 0 15px; }
     input[type="text"]::-webkit-input-placeholder, input[type="email"]::-webkit-input-placeholder {
       color: #9d948c; }
@@ -97,7 +97,7 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #0c92bf;
+  background: #C81549;
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
@@ -120,7 +120,7 @@ h1.title {
   .score-container .score-addition, .best-container .score-addition {
     position: absolute;
     right: 30px;
-    color: red;
+    color: #C81549;
     font-size: 25px;
     line-height: 25px;
     font-weight: bold;
@@ -210,7 +210,7 @@ hr {
   -ms-user-select: none;
   -ms-touch-action: none;
   touch-action: none;
-  background: #1e6477;
+  background: #AB264C;
   border-radius: 6px;
   width: 500px;
   height: 500px;
@@ -403,39 +403,39 @@ hr {
     z-index: 10;
     font-family: 'Source Code Pro', Courier;
     font-size: 16px; 
-    color: #354b59;}
+    color: #FF3361;}
   .tile.tile-2 .tile-inner {
-    background: url('../tile-sets/udacity/2.png');
+    background: url('../tile-sets/color2048/2.jpg');
     background-size: 100%;
     color: rgba(0,0,0,0);
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+ }
   .tile.tile-4 .tile-inner {
-    background: url('../tile-sets/udacity/4.png');
+    background: url('../tile-sets/color2048/4.jpg');
     background-size: 100%;
     color: rgba(0,0,0,0);
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+ }
   .tile.tile-8 .tile-inner {
-    background: url('../tile-sets/udacity/8.png');
+    background: url('../tile-sets/color2048/8.jpg');
     background-size: 100%;
     color: rgba(0,0,0,0);
     font-weight: medium;
     font-size: 11px;
   }
   .tile.tile-16 .tile-inner {
-    background: url('../tile-sets/udacity/16.png');
+    background: url('../tile-sets/color2048/16.jpg');
     background-size: 100%;
     color: rgba(0,0,0,0);
     font-weight: medium;
     font-size: 10px;
   }
   .tile.tile-32 .tile-inner {
-    background: url('../tile-sets/udacity/32.png');
+    background: url('../tile-sets/color2048/32.jpg');
     background-size: 100%;
     color: rgba(0,0,0,0);
     font-size: 14px;
   }
   .tile.tile-64 .tile-inner {
-    background: url('../tile-sets/udacity/64.png');
+    background: url('../tile-sets/color2048/64.jpg');
     background-size: 100%;
     color: rgba(0,0,0,0);
     font-size: 14px;
@@ -443,46 +443,41 @@ hr {
   }
   .tile.tile-128 .tile-inner {
     font-weight: medium;
-    background: url('../tile-sets/udacity/128.png');
+    background: url('../tile-sets/color2048/128.jpg');
     background-size: 100%;
     color: rgba(0,0,0,0);
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
     font-size: 12px; }
     @media screen and (max-width: 520px) {
       .tile.tile-128 .tile-inner {
         font-size: 12px; } }
   .tile.tile-256 .tile-inner {
-    background: url('../tile-sets/udacity/256.png');
+    background: url('../tile-sets/color2048/256.jpg');
     background-size: 100%;
     color: rgba(0,0,0,0);
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
     font-size: 14px; }
     @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
         font-size: 16px; } }
   .tile.tile-512 .tile-inner {
-    background: url('../tile-sets/udacity/512.png');
+    background: url('../tile-sets/color2048/512.jpg');
     background-size: 100%;
     color: rgba(0,0,0,0);
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
     font-size: 13px; }
     @media screen and (max-width: 520px) {
       .tile.tile-512 .tile-inner {
         font-size: 13px; } }
   .tile.tile-1024 .tile-inner {
-    background: url('../tile-sets/udacity/1024.png');
+    background: url('../tile-sets/color2048/1024.jpg');
     background-size: 100%;
     color: rgba(0,0,0,0);
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
     font-size: 10px; }
     @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
         font-size: 10px; } }
   .tile.tile-2048 .tile-inner {
-    background: url('../tile-sets/udacity/2048.png');
+    background: url('../tile-sets/color2048/2048.jpg');
     background-size: 100%;
     color: rgba(0,0,0,0);
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 10px; }
     @media screen and (max-width: 520px) {
       .tile.tile-2048 .tile-inner {
@@ -961,10 +956,10 @@ hr {
           left: 50%;
           bottom: 2px; } }
 a.learn, a.keep-playing-button {
-  background-color: #de8b3e;
+  background-color: #C81549;
   text-decoration: none;
   border: 1px solid;
-  border-color: #c7640b;
+  border-color: #C81549;
   color: white;
   border-radius: 0;
   margin: 0 auto;
@@ -977,12 +972,12 @@ a.learn, a.keep-playing-button {
 a.learn:visited, a.keep-playing-button {
   }
 a.learn:hover, a.keep-playing-button:hover, a.learn-low:hover {
-  background-image: linear-gradient(to bottom,#f59a18 0,#f27d13 100%);
+  background-image: linear-gradient(to bottom,#C81549 0,#C81549 100%);
   background-repeat: repeat-x;
 }
 .restart-button, a.retry-button {
   display: inline-block;
-  background: #1e6477;
+  background: #C81549;
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
